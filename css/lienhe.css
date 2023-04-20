@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f4f8fa;
+} 
+
+
+
+.map{
+    background: url('../images/map.jpg') no-repeat;
+    height:600px;
+    background-size: 100% 100%;
+    margin: 0 250px;
+    cursor: pointer;   
+    transition: all 0.25s linear; 
+}
+.map img{
+    /* width: 1030px; */
+    /* height: 600px; */
+}
+
+.map:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 24px rgb(0 0 0 / 50%);
+}
+a,h2{
+    display:inline-block;
+    text-decoration: none;
+    color:black;
+}
+.location {
+    margin:30px 0 30px 250px;
+}
+.contact_top{
+    display:flex;
+    margin:30px 250px 10px 250px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:10px;
+    border-bottom:1px solid #ccc;
+}
+.contact_top p{
+    font-size: large;
+}
+.contact_top p:last-child{
+    position: relative;
+    right: 2px;
+}
+
+
+.form_control{
+    margin: 10px 250px;
+}
+
+.form_control:first-child input{
+    margin-left: 2px;
+}
+
+.form_control i{
+    border:1px solid #000;
+    padding:4.5px ;
+    border-radius:50%;
+    position: relative;
+    top:2px;
+}
+.form_control_item{
+    width:250px;
+    height: 30px;
+}
+.contact_bottom{
+    display:flex;
+    /* align-items: center; */
+}
+.contact_bottom_text .textbox{
+    margin: 10px 0 10px -200px;
+    width:250px;
+    height: 110px;  
+}
+.contact_bottom_in4{
+    margin:10px 0 10px 100px;
+}
+.contact_bottom_in4_item {
+    padding:0 10px 10px 0;
+}
+
+.btn{
+    margin:10px 490px 30px 490px;
+}
+.btn a{
+    font-size:14px;
+    border:1px solid;
+    padding:5px 25px;
+    border-radius:56px;
+    color:#fff;
+    background-color:#06c1d4;
+    text-decoration: none;
+}
+.btn a:hover{
+    color:#06c1d4;
+    background-color:#fff;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" type="text/css" href="../css/giohang.css"/> 
+    <script src="https://kit.fontawesome.com/6084ef8789.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div class="header">
+        <div class=menu1>
+            <ul class="social">
+                <li class="qua"><a href="https://www.facebook.com/" ><i class="fab fa-facebook-f"></i>  </a></li>
+                <li><a href="https://twitter.com/?lang=vi" ><i class="fab fa-twitter"></i>  </a></li>
+                <li><a href="https://www.google.com.vn/?hl=vi" ><i class="fab fa-google"></i></a></li>
+                <li><a href="https://www.youtube.com/" ><i class="fab fa-youtube-square"></i></a></li>
+             </ul>   
+
+            
+            <ul class="right">
+                <li><a href="index.html"><i class="fas fa-home"> </i> Trang chủ</a></li>
+                <li><a href="tintuc.html"><i class="fas fa-newspaper"></i> Tin Tức</a></li>
+                <li><a href=""><i class="fas fa-info-circle"></i> Giới thiệu</a></li>
+                <li><a href="lienhe.html"><i class="fas fa-phone-alt"> </i> Liên hệ</a></li>          
+            </ul>
+        </div>
+        <div class="menu2">
+            <h1><a href="index.html">LAPTOPSGU</a></h1>
+            <div class="input">
+                <input class="search" id="kw" type="text" placeholder="Bạn cần tìm gì?"/> 
+                <button type="submit" size="20" id="btnSearch" onclick="search()"><i class="fas fa-search"></i></button> 
+            </div>
+            <div class="option">
+            
+            <a href="#"><i class="fas fa-map-marked-alt"></i> Chi nhánh</a>
+            <a href="#"><i class="fas fa-user-circle"></i> Tài khoản</a>
+            <a href="giohang.html"><i class="fas fa-cart-arrow-down"></i> Giỏ hàng</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="body">
+        <div class="body__head">
+            <p>Sản phẩm</p>
+            <p>Số lượng</p>
+            <p>Tổng cộng</p>
+            
+        </div>
+
+        <div class="body__body">
+            <div class="product">
+                <a href="#">
+                    <img src="../images/lenovo legion 5(35.990.000d).jpg" >
+                    <div class="caption">ASUS ROG Strix <br>20.950.000đ</div>
+                </a>
+
+                <div class="quantity">
+                    <button>-</button> 1 <button>+</button>
+                </div>
+
+                <p>20.950.000đ</p>
+                <i class="fas fa-trash-alt" style="color: black;"></i>
+            </div>
+
+            
+            <div class="total" id="ship">
+                <p>Phí ship:</p>
+                <p style="margin-left:215px">30.000đ</p>
+            </div>
+            <div class="total">
+                <p>Thành tiền:</p>
+                <p>20.980.000đ</p>
+                <a href="thongtinmuahang.html">Thanh toán</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    
+       
+    </div>
+
+</body>
+<script src="/js/searchCart.js"></script>
+</html>

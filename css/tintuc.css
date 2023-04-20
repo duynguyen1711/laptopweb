@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f4f8fa;
+} 
+
+a,h2{
+    display:inline-block;
+    text-decoration: none;
+    color:black;
+}
+.location{
+    margin:30px 0 30px 250px;
+}
+
+
+.slider{
+    background: url('../images/tintuc.png') no-repeat;
+    height:400px;
+    background-size: 100% 95%;
+    margin: 0 250px;
+    cursor: pointer;   
+}
+
+/* .slider img{
+    width: 1000px;
+    height: 300px;
+} */
+
+.content{
+    margin: 0 250px;
+}
+.content a{
+    text-decoration: none;
+    color: #06c1d4;
+}
+.content span{
+    padding-left:10px;
+}
+.content .title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.new_main{
+    text-align: justify;
+}
+
+.new_list {
+    display:flex;
+    margin-top:20px;
+    justify-content: space-around;
+    text-align: justify;
+}
+.new_list img{
+    width:100%;
+}
+.new_list .new_item{
+    flex-basis: 48%;
+    padding:20px;
+    transition: all .4s ease;    
+    margin:0 10px;
+}
+.new_item_khuyenmai{
+    font-size:20px;
+}
+.new_item_content{
+    font-size: 24px;
+}
+.new_list .new_item_title{
+    font-weight: bold;
+    font-size:30px;
+}
+.new_list .new_item:hover{
+    box-shadow: 0 4px 20px rgb(0 0 0 / 25%);
+    transform: scale(1.1);
+}
+.btn .btn_xem{
+    text-decoration: none;
+   
+    text-align: center;
+}
+.btn{
+    margin:50px 0;
+}
+.btn a{
+    font-size:34px;
+    border:1px solid;
+    padding:10px 80px;
+    border-radius:56px;
+    line-height: 50px;
+    color:#fff;
+    background-color:#06c1d4; ;
+}
+.btn a:hover{
+    color:#06c1d4;
+    background-color:#fff;
+}
